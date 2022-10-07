@@ -1,0 +1,380 @@
+
+
+body .service-container{
+    background-color: black;
+}
+
+* .service-container{
+    box-sizing: border-box;
+    padding: 100px 0;
+    margin: 0;
+}
+
+.service-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content{
+    justify-content: center;
+}
+
+.max-width-service{
+    max-width: 1300px;
+    padding: 0 50px;
+    margin: auto;
+  }
+.max-width-service h1{
+    color: #eaeaea;
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+.max-width-service h1::after{
+    content: '';
+    position: absolute;
+    width: 170px;
+    height: 3px;
+    background: #fff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.max-width-service p{
+    text-align: center;
+    position: relative; 
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    padding-bottom: 10px;   
+}
+
+.card-layanan{
+    background: white;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.card-image{
+    height: 110px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-android{
+    height: 140px;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-layanan h2{
+    padding: 10px;
+    text-align: center;
+    text-transform: none;
+    font-size: 15px;
+}
+
+.card-layanan p{
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.card-layanan .title{
+    font-size: 19px;
+}
+
+.card-layanan .text{
+    font-size: 15px;
+}
+
+.card-layanan a{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    margin: 20px 50px;
+    text-decoration: none;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.card-layanan:hover{
+   background-color: rgb(62, 62, 62); 
+   color: white;
+   cursor: pointer;
+   transform: scale(1.03);
+   transition: all 1s ease;
+}
+
+
+@media (max-width:1200px){
+    .service-container{
+        flex-wrap: wrap;
+    }
+}
+
+/* laptop */
+ .laptop-engsel{
+    background: url("../img/laptop/engselbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.laptop-cleaning{
+    background: url("../img/laptop/cleaning.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.laptop-software{
+    background: url("../img/laptop/software.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.laptop-led{
+    background: url("../img/laptop/led.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.laptop-keyboard{
+    background: url("../img/laptop/keyboard.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.laptop-battery{
+    background: url("../img/laptop/battery.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* android */
+
+.android-casing{
+    background: url("../img/android/backdor.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.android-backdor{
+    background: url("../img/android/casing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.android-flexible{
+    background: url("../img/android/flexible.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.android-front{
+    background: url("../img/android/camera-depan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.android-back{
+    background: url("../img/android/camera-belakang.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.android-battery{
+    background: url("../img/android/battery.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.android-lcd{
+    background: url("../img/android/lcd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.android-conector{
+    background: url("../img/android/conector.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* pricelist */
+
+
+.main {
+    width: 1170px;
+    margin: 10px auto;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    text-transform: capitalize;
+    font-size: 35px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.section-title h2:before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: #00875c;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menus {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.menu-column {
+    width: 47%;
+}
+
+.menu-column h4 {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.menu-column h4:before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #00875c;
+    bottom: 0;
+}
+
+
+.single-menu {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.single-menu img {
+    border-radius: 50%;
+    max-width: 115px;
+    border: 1px dashed #ddd;
+    padding: 3px;
+    margin-right: 10px;
+    transition: .3s;
+}
+
+.single-menu:hover img {
+    transform: rotate(360deg);
+}
+
+.single-menu .menu-content h5 {
+    width: 450px;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 1px dashed #222;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.single-menu .menu-content h5 span {
+    color: tomato;
+    float: right;
+    font-weight: 600;
+    font-style: italic;
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .main {
+        width: 990px;
+    }
+    .single-menu .menu-content h5 {
+        margin-right: 60px;
+        width: 400px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 991px) {
+    .main {
+        width: 750px;
+    }
+
+    .menu-column {
+        width: 40%;
+        margin-bottom: 60px;
+    }
+
+    .single-menu {
+        flex-direction: column;
+    }
+
+    .single-menu img {
+        margin-bottom: 25px;
+    }
+    .single-menu .menu-content h5 {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main {
+        width: 320px;
+    }
+
+    .menu-column {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .single-menu {
+        flex-direction: column;
+    }
+
+    .single-menu img {
+        margin-bottom: 25px;
+    }
+
+    .single-menu .menu-content h5 {
+        width: 400px;
+    }
+}

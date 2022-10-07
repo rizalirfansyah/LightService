@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Light Service</title>
+
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/layanan2.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- section header mulai -->
+
+  <header>
+
+    <nav>
+      <div class="navbar">
+        <i class='bx bx-menu'></i>
+        <a href="index.html" class="logo">LightService</a>
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name">Youth Options</span>
+            <i class='bx bx-x'></i>
+          </div>
+          <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li>
+              <a href="#" class="js-arrow">Layanan</a>
+              <i class='bx bxs-chevron-down js-arrow arrow'></i>
+              <ul class="js-sub-menu sub-menu">
+                <li><a href="iphone.html">iphone</a></li>
+                <li><a href="android.html">Android</a></li>
+                <li><a href="macbook.html">Macbook</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="htmlcss-arrow">Tentang Kami</a>
+              <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+              <ul class="htmlCss-sub-menu sub-menu">
+                <li><a href="sejarah.html">Sejarah</a></li>
+                <li><a href="team.html">Team Kami</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+
+  </header>
+
+  <!-- header berhenti -->
+
+  <!-- section pilih layanan iphone mulai -->
+
+  <section class="service-container">
+    <div class="max-width-service">
+      <h1>Our Service</h1>
+      <p style="text-transform: none;">Silahkan pilih keluhan kerusakan laptop dibawah ini:</p>
+
+      <div class="content">
+        <div class="card-layanan">
+          <div class="card-image laptop-engsel"></div>
+          <h2>Engsel</h2>
+          <p>Jasa perbaikan servis untuk masalah pada seputar engsel laptop (pecah/retak, sangkut, tidak bisa menutup/membuka)
+          </p>
+          <a href="#q1" onclick="showHide(1);">Read more</a>
+        </div>
+        <div class="card-layanan">
+          <div class="card-image laptop-cleaning"></div>
+          <h2>Cleaning</h2>
+          <p>Jasa Service Maintenance Pembersihan, Tune Up, Repasta, Penggantian Thermal Pad, dan Optimasi Laptop
+          </p>
+          <a href="#q2" onclick="showHide(2);">Read more</a>
+        </div>
+        <div class="card-layanan">
+          <div class="card-image laptop-software"></div>
+          <h2>Software</h2>
+          <p>Jasa menginstal sofware laptop dari ganti Windows, Office, Backup Data, dan lain-lain
+          </p>
+          <a href="#q3" onclick="showHide(3);">Read more</a>
+        </div>
+        <div class="card-layanan">
+          <div class="card-image laptop-led"></div>
+          <h2>LCD</h2>
+          <p>Jasa repair LCD laptop rusak, retak, atau blank hitam
+          </p>
+          <a href="#q4" onclick="showHide(4);">Read more</a>
+        </div>
+        <div class="card-layanan">
+          <div class="card-image laptop-keyboard"></div>
+          <h2>Keyboard</h2>
+          <p>layanan perbaikan keyboard dengan kendala papan keyboard yang tidak berfungsi
+          </p>
+          <a href="#q5" onclick="showHide(5);">Read more</a>
+        </div>
+        <div class="card-layanan">
+          <div class="card-image laptop-battery"></div>
+          <h2>Battery</h2>
+          <p>Jasa perbaikan ganti battery laptop yang tanam atau non-tanam
+          </p>
+          <a href="#q6" onclick="showHide(6);">Read more</a>
+        </div>
+
+      </div>
+  </section>
+
+  <!-- section layanan berhenti -->
+
+
+  <!-- section pricelist -->
+
+  <!-- engsel -->
+  <div class="main" id="q1" style="display: none;">
+    <div class="section-title">
+      <h2>our menu</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, eum!</p>
+    </div>
+    <div class="menus">
+      <div class="menu-column">
+        <div class="single-menu">
+          <img src="img/laptop/engsel.png" alt="">
+          <div class="menu-content">
+            <h5>Satu Sisi <span>Rp. 200.000</span></h5>
+          </div>
+        </div>
+      </div>
+      <div class="menu-column">
+        <div class="single-menu">
+          <img src="img/laptop/engsel.png" alt="">
+          <div class="menu-content">
+            <h5>Dua Sisi<span>Rp. 300.000</span></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- cleaning -->
+  <div class="main" id="q2" style="display: none;">
+    <div class="section-title">
+      <h2>Daftar Harga</h2>
+      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, eum!</p> -->
+    </div>
+    <div class="menus">
+      <div class="menu-column">
+        <div class="single-menu">
+          <img src="img/laptop/cleaning1.jpg" alt="">
+          <div class="menu-content">
+            <h5>Single Fan<span>Rp. 200.000</span></h5>
+          </div>
+        </div>
+      </div>
+      <div class="menu-column">
+        <div class="single-menu">
+          <img src="img/laptop/cleaning2.jpg" alt="">
+          <div class="menu-content">
+            <h5>Dual Fan<span>Rp. 250.000</span></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sofware -->
+  <div class="main" id="q3" style="display: none;">
+    <div class="section-title">
+      <h2>Daftar Harga</h2>
+      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, eum!</p> -->
+    </div>
+    <div class="menus">
+      <div class="menu-column">
+        <div class="single-menu">
+          <img src="img/laptop/windows-office.jpg" alt="">
+          <div class="menu-content">
+            <h5>Instal Windows + Office <span>Rp. 200.000</span></h5>
+          </div>
+        </div>
+      </div>
+      <div class="menu-column">
+        <div class="single-menu">
+          <img src="img/laptop/office.jpg" alt="">
+          <div class="menu-content">
+            <h5>Instal Office <span>Rp. 100.000</span></h5>
+          </div>
+        </div>
+      </div>
+      <div class="menu-column">
+        <div class="single-menu">
+          <img src="img/laptop/windows-office.jpg" alt="">
+          <div class="menu-content">
+            <h5>Aktivasi Windows + Office <span>Rp. 50.000</span></h5>
+          </div>
+        </div>
+      </div>
+      <div class="menu-column">
+        <div class="single-menu">
+          <img src="img/laptop/driver.jpg" alt="">
+          <div class="menu-content">
+            <h5>Driver Problem<span>Rp. 50.000</span></h5>
+          </div>
+        </div>
+      </div>
+      <div class="menu-column">
+        <div class="single-menu">
+          <img src="img/laptop/data.png" alt="">
+          <div class="menu-content">
+            <h5>Backup Data<span>Rp. 50.000</span></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LED -->
+  <div class="main" id="q4" style="display: none;">
+    <div class="section-title">
+      <h2>Daftar Harga</h2>
+      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, eum!</p> -->
+    </div>
+    <div class="menus">
+      <div class="menu-column">
+        <div class="single-menu">
+          <img src="img/laptop/lcd1.jpg" alt="">
+          <div class="menu-content">
+            <h5>14"/15.6"HD<span>Rp. 1.100.000/1.500.000</span></h5>
+          </div>
+        </div>
+      </div>
+      <div class="menu-column">
+        <div class="single-menu">
+          <img src="img/laptop/lcd2.jpg" alt="">
+          <div class="menu-content">
+            <h5>14"/15.6"FHD<span>Rp. 1.300.000/1.700.000</span></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Keyboard -->
+  <div class="main" id="q5" style="display: none;">
+    <div class="section-title">
+      <h2>Daftar Harga</h2>
+      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, eum!</p> -->
+    </div>
+    <div class="menus">
+      <div class="menu-column">
+        <div class="single-menu">
+          <img src="img/laptop/repair-keyvoard.png" alt="">
+          <div class="menu-content">
+            <h5>14"/15.6" Non-Tanam<span>Rp. 300.000/350.000</span></h5>
+          </div>
+        </div>
+      </div>
+      <div class="menu-column">
+        <div class="single-menu">
+          <img src="img/laptop/repair-keyvoard.png" alt="">
+          <div class="menu-content">
+            <h5>14"/15.6" Tanam<span>Rp. 400.000/550.000</span></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Battery -->
+  <div class="main" id="q6" style="display: none;">
+    <div class="section-title">
+      <h2>Daftar Harga</h2>
+      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, eum!</p> -->
+    </div>
+    <div class="menus">
+      <div class="menu-column">
+        <div class="single-menu">
+          <img src="img/laptop/batt-non-tanam.jpg" alt="">
+          <div class="menu-content">
+            <h5>Non-Tanam<span>Rp. 400.000</span></h5>
+          </div>
+        </div>
+      </div>
+      <div class="menu-column">
+        <div class="single-menu">
+          <img src="img/laptop/batt-non-tanam.jpg" alt="">
+          <div class="menu-content">
+            <h5>Tanam<span>Rp. 400.000</span></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- section pricelist berhenti -->
+
+
+  <!-- section alasan -->
+  <section class="cta py-5">
+    <div class="cta-container py-4">
+      <div class="row justify-content-center">
+        <div class="container-cta col-md-6 text-center">
+          <h3>Ingin konsultasi lebih lanjut?</h3>
+          <h3>Hampir semua masalah yang Anda alami pada Gadget Anda pasti dapat kami selesaikan dengan sangat baik.</h3>
+          <a href="" class="btn bt" onclick="laptop()">Hubungi Kami</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section alasan berhenti -->
+
+  <!-- footer -->
+  <footer class="bg-dark text-white pt-5 pb-4">
+
+    <div class="footer-top text-center text-md-center">
+      <div class="row text-center text-md-center justify-content-center">
+        <div class="col-md-4 col-lg-3 col-xl-3 mt-3">
+          <h5 class="fs-2 text-uppercase mb-4 font-weight-bold text-warning">Contact Us</h5>
+          <p>
+            <i class="fs-4 fas fa-home mr-3"> Jl.Krukah Selatan no.156</i>
+          </p>
+          <p>
+            <i class="fs-4 fas fa-envelope mr-3"> lightservice@gmail.com</i>
+          </p>
+          <p>
+            <i class="fs-4 fas fa-phone mr-3"> +621238512895</i>
+          </p>
+          <p class="fs-3 text-white mr-3" style="text-decoration: none;">Store Hours <br> Monday-Sunday <br> 11.00 -
+            20.00</p>
+
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mt-3">
+          <h5 class="fs-2 text-uppercase mb-4 font-weight-bold text-warning">Google Maps</h5>
+          <p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.520207397172!2d112.75094071453951!3d-7.295298273735192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb86546f5141%3A0xdd7908d1c51de6a1!2sLight%20Service%20%26%20Space!5e0!3m2!1sid!2sid!4v1661951067114!5m2!1sid!2sid"
+              width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </p>
+        </div>
+      </div>
+      <hr class="mb-4">
+      <div class="row align-items-center">
+        <div class="col-md-7 col-lg-8">
+          <p>Copyright @2022 All rights reserved by:
+            <a href="#" style="text-decoration: none;">
+              <strong class="text-warning">Light Service</strong>
+            </a>
+          </p>
+        </div>
+        <div class="col-md-5 col-lg-4">
+          <div class="text-center text-md-right">
+
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                  <i class="fab fa-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                  <i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                  <i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer berhenti -->
+
+  <script src="js/script.js"></script>
+  <script src="js/navbar.js"></script>
+</body>
+</html>
